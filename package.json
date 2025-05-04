@@ -1,0 +1,16 @@
+{
+  "name": "pup",
+  "version": "1.0.0",
+  "description": "show pop ups",
+  "main": "index.js",
+  "author": "Alex Alan Nunes",
+  "license": "MIT",
+  "scripts": {
+    "dev": "esbuild src/index.ts --bundle --outfile=dist/pup.js --watch --sourcemap",
+    "build": "esbuild src/index.ts --bundle --minify --outfile=build/pup.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.3",
+    "typescript": "^5.8.3"
+  }
+}
